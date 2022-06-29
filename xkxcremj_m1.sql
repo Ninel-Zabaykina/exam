@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 29, 2022 at 07:35 PM
+-- Generation Time: Jun 29, 2022 at 08:08 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -108,9 +108,9 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`id`, `name`, `description`, `timestamp`, `idUser`, `idCategory`, `status`, `photoBefore`, `price`, `reason`) VALUES
-(6, 'zakazishe', 'sdfdsafaf', '2022-05-27 20:25:30', 6, 3, '', '1.jpg', 4, ''),
-(7, 'wwwwwwwwwwwwwww', 'wwwwwwwwwwwwwwww', '2022-05-27 20:25:21', 6, 3, '', 'табл.jpg', 1, ''),
-(8, 'sdsad', 'asdasd', '2022-05-27 20:25:12', 6, 3, '', 'Screenshot_3.jpg', 200, ''),
+(6, 'Третий комикс', 'sdfdsafaf', '2022-06-29 18:06:49', 6, 3, 'В наличии', '1.jpg', 4, ''),
+(7, 'Второй комикс', 'wwwwwwwwwwwwwwww', '2022-06-29 18:06:32', 6, 3, 'В наличии', '21.jpg', 1, ''),
+(8, 'Один комикс', 'asdasd', '2022-06-29 18:06:20', 6, 3, 'В наличии', '31.jpg', 200, ''),
 (9, 'vcxv', 'xcvcv', '2022-05-27 20:04:50', 6, 3, '', 'Screenshot_3.jpg', 250, '');
 
 -- --------------------------------------------------------

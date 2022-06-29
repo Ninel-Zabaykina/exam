@@ -62,7 +62,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $Products = Product::find()->where(['status'=>'В нали'])->orderBy(['timestamp'=>SORT_DESC])->limit(2)->all();
+        $Products = Product::find()->where(['status'=>'В наличии'])->orderBy(['timestamp'=>SORT_DESC])->limit(5)->all();
         return $this->render('index', [
             'Products'=>$Products,
         ]);
